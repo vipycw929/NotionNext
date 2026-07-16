@@ -5,12 +5,8 @@ import { siteConfig } from '@/lib/config'
  * @returns
  */
 export default function PoweredBy(props) {
-  // 已自定义版权信息，原始代码已注释
-  return (
-    <div className={`inline text-sm font-serif ${props.className || ''}`}>
-      © 2026 我的博客
-    </div>
-  )
+  // 已注释掉原有的版权显示代码，如需恢复请取消注释
+  return null
 
   // 以下为原始代码（已注释）
   // return (
