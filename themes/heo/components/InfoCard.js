@@ -8,6 +8,16 @@ import CONFIG from '../config'
 import Announcement from './Announcement'
 import Card from './Card'
 
+//关闭这个功能
+export function InfoCard(props) {
+  // 添加这一行：强制不渲染
+  return null;
+
+  const { siteInfo, notice } = props
+  // ... 下面的代码保持不变
+}
+
+
 export function normalizeInfoCardGreetings(value) {
   if (Array.isArray(value)) {
     return value.map(item => String(item).trim()).filter(Boolean)
