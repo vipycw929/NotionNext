@@ -11,7 +11,7 @@ const CONFIG = {
     //{ title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
     //{ title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
-
+ 
   // 英雄区左右侧组件颠倒位置
   HEO_HERO_REVERSE: false,
   // 博客主体区左右侧组件颠倒位置
