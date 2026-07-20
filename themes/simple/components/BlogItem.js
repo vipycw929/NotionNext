@@ -110,5 +110,7 @@ export const BlogItem = props => {
             )}
           </main>
         </article>
+      </div>
+    </div>
   )
 }
