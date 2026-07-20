@@ -51,7 +51,7 @@ const CONFIG = {
     '🧱 团队小组发动机'
   ],
 
-  // 个人资料底部按钮
+  // 个人资料底部按钮 
   HEO_INFO_CARD_URL1: '',
   HEO_INFO_CARD_ICON1: '',
   HEO_INFO_CARD_URL2: '',
