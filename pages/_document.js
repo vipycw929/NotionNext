@@ -109,12 +109,6 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          {/* 👇 添加禁用右键的脚本 */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `document.addEventListener('contextmenu', function(e) { e.preventDefault(); });`
-            }}
-          />
         </body>
       </Html>
     )
